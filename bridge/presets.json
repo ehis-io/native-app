@@ -1,0 +1,22 @@
+{
+  "0": {
+    "name": "USER PATCH 0",
+    "blocks": {
+      "CMP": false,
+      "EFX": false,
+      "AMP": true,
+      "IR": true,
+      "EQ": false,
+      "MOD": false,
+      "DLY": false,
+      "RVB": true
+    }
+  },
+  "1": {
+    "name": "USER PATCH 1",
+    "blocks": {
+      "MOD": true,
+      "DLY": true
+    }
+  }
+}

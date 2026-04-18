@@ -1,0 +1,11 @@
+Starting project at /home/ehis/vscode/personal/mg30/native-app
+TypeError: configs.toReversed is not a function
+TypeError: configs.toReversed is not a function
+    at mergeConfig (/home/ehis/vscode/personal/mg30/native-app/node_modules/metro-config/src/loadConfig.js:179:35)
+    at getDefaultConfig (/home/ehis/vscode/personal/mg30/native-app/node_modules/expo/node_modules/@expo/metro-config/src/ExpoMetroConfig.ts:419:23)
+    at loadMetroConfigAsync (/home/ehis/vscode/personal/mg30/native-app/node_modules/expo/node_modules/@expo/cli/src/start/server/metro/instantiateMetro.ts:108:41)
+    at instantiateMetroAsync (/home/ehis/vscode/personal/mg30/native-app/node_modules/expo/node_modules/@expo/cli/src/start/server/metro/instantiateMetro.ts:230:7)
+    at MetroBundlerDevServer.startImplementationAsync (/home/ehis/vscode/personal/mg30/native-app/node_modules/expo/node_modules/@expo/cli/src/start/server/metro/MetroBundlerDevServer.ts:1062:69)
+    at MetroBundlerDevServer.startAsync (/home/ehis/vscode/personal/mg30/native-app/node_modules/expo/node_modules/@expo/cli/src/start/server/BundlerDevServer.ts:160:18)
+    at DevServerManager.startAsync (/home/ehis/vscode/personal/mg30/native-app/node_modules/expo/node_modules/@expo/cli/src/start/server/DevServerManager.ts:184:7)
+    at startAsync (/home/ehis/vscode/personal/mg30/native-app/node_modules/expo/node_modules/@expo/cli/src/start/startAsync.ts:100:3)

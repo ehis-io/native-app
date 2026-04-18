@@ -3,10 +3,10 @@
     "name": "native-app",
     "slug": "native-app",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -16,14 +16,28 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.mg30.nativeapp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
     },
+    "plugins": [
+        [
+          "expo-build-properties",
+          {
+            "android": {
+              "usesCleartextTraffic": true
+            }
+          }
+        ]
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-build-properties"
+    ]
   }
 }
