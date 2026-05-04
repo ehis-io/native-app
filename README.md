@@ -11,6 +11,11 @@ A mobile application for the NUX MG-30 Guitar Multi-Effects Processor.
 - **Visual Signal Chain**: Interactive view of the current effects chain with active/bypass status.
 - **Modern UI**: Dark mode interface designed for performance and ease of use.
 
+## 📥 Download
+
+You can find the latest stable builds in the [Releases](https://github.com/ehis-io/native-app/releases) section. 
+*Note: Android users may need to allow "Install from Unknown Sources" to install the APK.*
+
 ## 🛠 Technical Stack
 
 - **Framework**: React Native / Expo
@@ -18,7 +23,7 @@ A mobile application for the NUX MG-30 Guitar Multi-Effects Processor.
 - **Communication**: Socket.io (WIFI), Native MIDI API (USB)
 - **State Management**: React Hooks
 
-## 📦 Setup & Installation
+## 📦 Setup & Installation (Development)
 
 1. **Clone the repository**
 2. **Install dependencies**:
