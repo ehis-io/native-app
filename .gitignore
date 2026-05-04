@@ -2,9 +2,11 @@
 
 # dependencies
 node_modules/
+native-app/node_modules/
 
 # Expo
 .expo/
+native-app/.expo/
 dist/
 web-build/
 
@@ -36,5 +38,7 @@ yarn-error.*
 *.tsbuildinfo
 
 # generated native folders
+native-app/ios/
+native-app/android/
 /ios
 /android
