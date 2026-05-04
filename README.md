@@ -23,10 +23,11 @@ A mobile application for the NUX MG-30 Guitar Multi-Effects Processor.
 1. **Clone the repository**
 2. **Install dependencies**:
    ```bash
+   cd native-app
    npm install
    ```
 3. **Configure Server IP**:
-   Update the `SERVER_IP` constant in `App.js` to match your laptop's IP address if using WIFI mode.
+   Update the `SERVER_IP` constant in `native-app/App.js` to match your laptop's IP address if using WIFI mode.
 4. **Run the application**:
    ```bash
    npx expo start
